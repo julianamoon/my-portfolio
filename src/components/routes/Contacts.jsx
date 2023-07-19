@@ -91,6 +91,10 @@ const Wrapper = styled.div`
       margin: 0 auto;
     }
   }
+  @media (max-width: 500px) {
+    height: auto;
+    width: 90vw;
+  }
 `;
 
 export default Contact;

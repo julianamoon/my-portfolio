@@ -117,11 +117,18 @@ const Wrapper = styled.div`
     }
   }
   @media (max-width: 500px) {
+    height: auto;
     button {
       display: none;
     }
     .project {
-      overflow: auto;
+      overflow: hidden;
+    }
+    article {
+      margin-bottom: 30px;
+    }
+    img {
+      width: 100%;
     }
   }
 `;

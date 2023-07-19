@@ -22,6 +22,10 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  @media (max-width: 500px) {
+    height: auto;
+    overflow: auto;
+  }
 `;
 
 export default Experiences;

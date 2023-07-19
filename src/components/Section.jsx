@@ -24,6 +24,9 @@ const Wrapper = styled.div`
   @media (max-width: 780px) {
     border-left: none;
   }
+  @media (max-width: 500px) {
+    height: 100%;
+  }
 `;
 
 export default Section;

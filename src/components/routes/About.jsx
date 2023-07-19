@@ -136,6 +136,11 @@ const Wrapper = styled.section`
       padding-bottom: 0;
     }
   }
+  @media (max-width: 500px) {
+    .list3 {
+      margin-bottom: 30px;
+    }
+  }
 `;
 
 export default About;

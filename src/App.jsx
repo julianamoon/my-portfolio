@@ -26,6 +26,11 @@ const Wrapper = styled.main`
   @media (max-width: 700px) {
     flex-flow: column;
   }
+  @media (max-width: 500px) {
+    overflow: auto;
+    margin-top: 30px;
+    height: auto;
+  }
 `;
 
 export default App;
