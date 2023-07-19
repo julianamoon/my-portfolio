@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+$primary-color: #925fe0;
+$gray-color: #d1d1d1;
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.gray {
+  color: $gray-color;
+}
+.primary {
+  color: $primary-color;
+}
+p,
+li,
+a {
+  font-size: 0.9rem;
+}
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+li,
+a,
+.page-h2 {
+  color: $primary-color;
+}
+.page-h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.button {
+  margin: 10px auto;
+  background: transparent;
+  border: 1px solid #925fe0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button:hover {
+  background: #925fe0;
+  color: white;
+}
+.button:active {
+  transform: translateY(3px);
+}
+article {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+@media (max-width: 500px) {
+  article {
+    position: relative;
+    opacity: 1;
+    transition: none;
+  }
+  article.lastSlide {
+    transform: translateX(0);
+  }
+  article.nextSlide {
+    transform: translateX(0);
+  }
+}
