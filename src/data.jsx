@@ -49,7 +49,7 @@ export const certifications = [
 export const webdevSkills = [
   { id: 1, skill: "HTML, CSS, Javascript" },
   { id: 2, skill: "WordPress" },
-  { id: 3, skill: "ReactJS" },
+  { id: 3, skill: "ReactJS, NodeJS" },
   { id: 4, skill: "SASS, Styled Components" },
 ];
 export const webdesignSkills = [
