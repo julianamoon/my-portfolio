@@ -73,7 +73,7 @@ export const experience = [
     role: "Full-Time",
     date: "January, 2023",
     description:
-      "Building websites and applications since design to functionality and ensuring the product is responsive, interactive and optmized for various devices.",
+      "Building websites and applications since design to functionality and ensuring the product is responsive, interactive and optimized for various devices.",
   },
   {
     id: 4,
