@@ -36,7 +36,7 @@ export const certifications = [
   },
   {
     id: 2,
-    url: "https://www.freecodecamp.org/certification/fcc532004f8-1d1b-4c2c-bef6-5e111a53225d/javascript-algorithms-and-data-structuresn",
+    url: "https://www.freecodecamp.org/certification/fcc532004f8-1d1b-4c2c-bef6-5e111a53225d/javascript-algorithms-and-data-structures",
     name: "JavaScript Algorithms and Data Structures",
   },
   {
@@ -72,6 +72,8 @@ export const experience = [
     company: "Freelancer",
     role: "Full-Time",
     date: "January, 2023",
+    description:
+      "Building websites and applications since design to functionality and ensuring the product is responsive, interactive and optmized for various devices.",
   },
   {
     id: 4,
@@ -79,6 +81,8 @@ export const experience = [
     company: "Freelancer",
     role: "Full-Time",
     date: "October, 2018",
+    description:
+      "Created visual engaging designs, characters and stories through digital art. Clients include Webtoon, Houghton Mifflin Harcourt and Universo Guará/Funktoon.",
   },
   {
     id: 3,
@@ -86,6 +90,8 @@ export const experience = [
     company: "Trip4U",
     role: "Internship",
     date: "April, 2018",
+    description:
+      "Redefined the company's brand alongside a team of talented, creative people. Showcased the new visuals in printed materials, social media posts and UI design.",
   },
   {
     id: 2,
@@ -93,6 +99,8 @@ export const experience = [
     company: "Shock Games",
     role: "Internship",
     date: "August, 2017",
+    description:
+      "Responsible for representing the company's brand in various designs across multiple platform: online website, social media and printed products. An active voice in brainstorming ideas and copywriting.",
   },
   {
     id: 1,
@@ -100,5 +108,7 @@ export const experience = [
     company: "Agência Onze",
     role: "Internship",
     date: "March, 2017",
+    description:
+      "First experience collaborating with clients and teammates to create innovative design solutions that effectively communicate brand messages. Daily use of Adobe Creative Suite as my main tools of design.",
   },
 ];

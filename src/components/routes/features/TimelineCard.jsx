@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 const TimelineCard = (data) => {
-  const { job, company, role, date } = data;
+  const { job, company, role, date, description } = data;
   return (
     <Wrapper>
       <div className="left">
@@ -12,12 +12,7 @@ const TimelineCard = (data) => {
         <p>{date}</p>
       </div>
       <div className="right">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-          similique voluptas culpa explicabo autem perferendis reprehenderit
-          quis dolorem excepturi, perspiciatis at rerum sequi! Hic totam in
-          cumque nemo perspiciatis at.
-        </p>
+        <p>{description}</p>
       </div>
     </Wrapper>
   );
@@ -30,7 +25,7 @@ const Wrapper = styled.div`
   display: flex;
   gap: 5px;
   .left {
-    flex-basis: 400px;
+    flex-basis: 20%;
     position: relative;
     h3::before {
       content: "_";
@@ -40,6 +35,9 @@ const Wrapper = styled.div`
     p {
       font-size: 0.7rem;
     }
+  }
+  .right {
+    flex-basis: 80%;
   }
   @media (max-width: 500px) {
     flex-flow: column nowrap;
