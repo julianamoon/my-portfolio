@@ -73,7 +73,7 @@ export const experience = [
     role: "Full-Time",
     date: "January, 2023",
     description:
-      "Building websites and applications since design to functionality and ensuring the product is responsive, interactive and optimized for various devices.",
+      "Building websites and applications from design to functionality and ensuring the product is responsive, interactive, and optimized for various devices.",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const experience = [
     role: "Internship",
     date: "August, 2017",
     description:
-      "Responsible for representing the company's brand in various designs across multiple platform: online website, social media and printed products. An active voice in brainstorming ideas and copywriting.",
+      "Responsible for representing the company's brand in various designs across multiple platforms: online website, social media and printed products. An active voice in brainstorming ideas and copywriting.",
   },
   {
     id: 1,
