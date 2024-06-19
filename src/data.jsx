@@ -56,7 +56,7 @@ export const webdesignSkills = [
   { id: 1, skill: "Adobe Photoshop" },
   { id: 2, skill: "Adobe Illustrator" },
   { id: 3, skill: "Adobe InDesign" },
-  { id: 4, skill: "Adobe XD" },
+  { id: 4, skill: "Figma, Adobe XD" },
 ];
 export const softSkills = [
   { id: 1, skill: "Creative" },
