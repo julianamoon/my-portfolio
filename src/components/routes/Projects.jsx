@@ -73,9 +73,9 @@ const Projects = () => {
               <a className="button" href={url}>
                 Live
               </a>
-              <a className="button" href={code}>
-                Code
-              </a>
+              `if (code !=== null) {
+                return <a className="button" href={code}> Code </a> 
+              }`
             </article>
           );
         })}
